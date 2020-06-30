@@ -116,11 +116,11 @@ window.view = {
 			case 5:
   				this.showDay('case5Id', this.currentSiblingElement.id, 'fridayImages', 'strNullId', 'Friday');
   				break;
-			case 7:
-  				this.showDay('case6Id', this.currentSiblingElement.id, 'sundayImages', 'strNullId', 'Sunday');
+			case 6:
+  				this.showDay('case6Id', this.currentSiblingElement.id, 'Saturday', 'strNullId', 'Saturday');
   				break;
 			case 7:
-  				this.showDay('case7Id', this.currentSiblingElement.id, 'sundayImages', 'strNullId', 'Sunday');
+  				this.showDay('case7Id', this.currentSiblingElement.id, 'SundayImages', 'strNullId', 'Sunday');
   				break;
   			default:
   				this.showDay('defaultId', this.currentSiblingElement.id, null, 'strNullId', 'null');
