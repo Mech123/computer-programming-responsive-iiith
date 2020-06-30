@@ -117,7 +117,7 @@ window.view = {
   				this.showDay('case5Id', this.currentSiblingElement.id, 'fridayImages', 'strNullId', 'Friday');
   				break;
 			case 6:
-  				this.showDay('case6Id', this.currentSiblingElement.id, 'saturdayImages', 'strNullId', 'Holiday');
+  				this.showDay('case6Id', this.currentSiblingElement.id, 'sundayImages', 'strNullId', 'Sunday');
   				break;
 			case 7:
   				this.showDay('case7Id', this.currentSiblingElement.id, 'sundayImages', 'strNullId', 'Sunday');
@@ -165,7 +165,7 @@ window.view = {
 		document.getElementById('tuesdayImages').style.opacity = '.3';
 		document.getElementById('wednesdayImages').style.opacity = '.3';
 		document.getElementById('thursdayImages').style.opacity = '.3';
-		document.getElementById('fridayImages').style.opacity = '.3';
+		document.getElementById('sundayImages').style.opacity = '.3';
 		document.getElementById('saturdayImages').style.opacity = '.3';
 		document.getElementById('sundayImages').style.opacity = '.3';
 	},
