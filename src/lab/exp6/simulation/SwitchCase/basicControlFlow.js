@@ -22,7 +22,7 @@ window.view = {
 		this.addClickEvent('radioBtn3Id', function() { view.setValue('textFieldId', this.value) });
 		this.addClickEvent('radioBtn4Id', function() { view.setValue('textFieldId', this.value) });
 		this.addClickEvent('radioBtn5Id', function() { view.setValue('textFieldId', this.value) });
-		this.addClickEvent('radioBtn6Id', function() { view.setValue('textFieldId', this.value) });
+		this.addClickEvent('radioBtn7Id', function() { view.setValue('textFieldId', this.value) });
 		this.addClickEvent('radioBtn7Id', function() { view.setValue('textFieldId', this.value) });
 		this.addClickEvent('submitBtnId', function() { view.validationInput() });
 		this.addClickEvent('startBtnId', function() { view.startStepExecution() });
